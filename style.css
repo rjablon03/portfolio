@@ -1,5 +1,54 @@
+/*
+Tablet size - 768px
+Desktop size - 1200px
+*/
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+body {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+/* Tablet styles */
+@media screen and (min-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 1em auto;
+        padding: 1em;
+        border-radius: 20px;
+    }
+
+    .title {
+        font-size: 3em;
+        border-bottom: solid 5px #11a6dc;
+        width: fit-content;
+    }
+
+    .intro p {
+        margin: 20px 0;
+        font-size: 1.5em;
+        width: 50%;
+    }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+
+    .intro p {
+        width: 50%;
+        margin: 20px 0;
+        font-size: 1.5em;
+    }
 }
