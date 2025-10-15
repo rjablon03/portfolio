@@ -71,13 +71,13 @@ body {
     margin-bottom: 5px;
 }
 
-.experience-item .position {
+.experience-item .position, .experience-item .course {
     font-weight: 600;
     color: #667eea;
     margin-bottom: 5px;
 }
 
-.experience-item .date {
+.experience-item .date, .experience-item .tools {
     color: #888;
     font-style: italic;
     margin-bottom: 10px;
